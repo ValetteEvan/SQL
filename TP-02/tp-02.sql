@@ -22,7 +22,7 @@ INSERT INTO ARTICLE (ID, REF, DESIGNATION, PRIX, ID_FOU) VALUES
 (10, 'F04', 'Fraises d''encastrement', 8.14, 2);
 
 -- Question 7 : Insertion du bon de commande auprès de Française d'Imports
-INSERT INTO BON (NUMERO, DATE_CMDE, DELAI, ID_FOU) VALUES
+INSERT INTO BON (NUMERO, datetime, DELAI, ID_FOU) VALUES
 ('001', CURDATE(), 3, 1);
 
 -- Insertion de la composition du bon de commande
