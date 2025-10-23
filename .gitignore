@@ -1,0 +1,25 @@
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# SQL specific
+*.log
+*.tmp
+*.bak
+
+# Database files (if you want to exclude them)
+# *.db
+# *.sqlite
+# *.sqlite3
