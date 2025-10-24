@@ -1,8 +1,5 @@
--- TP03 - Requêtes SQL avec WHERE et ORDER BY
--- Database: compta2
 
 USE compta2;
-
 
 SELECT * FROM ARTICLE;
 
