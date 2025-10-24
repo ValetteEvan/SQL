@@ -1,5 +1,5 @@
 
-USE compta2;
+USE compta;
 
 SELECT * FROM ARTICLE;
 
