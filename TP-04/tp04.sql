@@ -101,6 +101,8 @@ JOIN compo c ON b.id = c.id_bon
 JOIN article a ON c.id_art = a.id
 WHERE MONTH(b.date_cmde) = 4 AND YEAR(b.date_cmde) = 2019;
 
+--Plus difficile :
+
 -- a. Sélectionnez les articles qui ont une désignation identique mais des fournisseurs différents
 --    (indice : réaliser une auto-jointure i.e. de la table avec elle-même)
 SELECT DISTINCT a1.id, a1.ref, a1.designation, a1.prix, a1.id_fou,
